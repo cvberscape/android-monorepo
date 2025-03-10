@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ThirdPartyComponentFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center"
+        android:text="Third Party Components"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        android:shadowColor="#03DAC5"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:textStyle="italic|bold" />
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="95dp"
+        android:textAlignment="center"
+        android:text="AppIntro"
+        android:fontFamily="@font/lato_light"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_intro"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="135dp"
+        android:text="run intro"
+        android:textColor="@color/black"
+        android:background="@drawable/rndbutton"
+        android:fontFamily="@font/lato"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="435dp"
+        android:text="SpinKit"
+        android:fontFamily="@font/lato_light"
+
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_spinkit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="95dp"
+        android:text="HIDE"
+        android:textColor="@color/black"
+        android:background="@drawable/rndbutton"
+        android:fontFamily="@font/lato"/>
+
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="130dp"
+        app:SpinKit_Style="WanderingCubes" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="235dp"
+        android:textAlignment="center"
+        android:text="MotionToast"
+        android:fontFamily="@font/lato_light"
+
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_success"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="55dp"
+        android:text="Success"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+
+        android:fontFamily="@font/lato"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_error"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="55dp"
+        android:text="Error"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+
+        android:fontFamily="@font/lato"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_warning"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="55dp"
+        android:text="Warning"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+
+        android:fontFamily="@font/lato"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_info"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="375dp"
+        android:layout_marginRight="55dp"
+        android:text="Info"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lato"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_delete"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="325dp"
+        android:text="Delete"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lato"/>
+</FrameLayout>

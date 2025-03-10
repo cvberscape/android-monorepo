@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".FeedbackSendFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center"
+        android:text="Send Feedback"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        android:shadowColor="#03DAC5"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_feedback_name"
+        android:layout_width="match_parent"
+
+        android:ems="10"
+        android:layout_height="48dp"
+        android:hint="Write your name"
+        android:inputType="textPersonName"
+        app:backgroundTint="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_feedback_location"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Write your location"
+        android:inputType="textPersonName"
+        app:backgroundTint="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_feedback_value"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Provide your feedback here"
+        android:inputType="textPersonName"
+        app:backgroundTint="@color/teal_200"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_send_feedback_api"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:text="SEND"  />
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.android2023ej.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/thirdPartyComponentFragment"
+        android:name="com.example.android2023ej.ThirdPartyComponentFragment"
+        android:label=""
+        tools:layout="@layout/fragment_third_party_component" >
+        <action
+            android:id="@+id/action_ThirdPartyComponentFragment_to_myCustomAppIntro"
+            app:destination="@id/myCustomAppIntro" />
+    </fragment>
+    <fragment
+        android:id="@+id/jsonFragment"
+        android:name="com.example.android2023ej.JsonFragment"
+        android:label=""
+        tools:layout="@layout/fragment_json" >
+        <action
+            android:id="@+id/action_jsonFragment_to_todoDetailFragment"
+            app:destination="@id/TodoDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TodoDetailFragment"
+        android:name="com.example.android2023ej.TodoDetailFragment"
+        android:label=""
+        tools:layout="@layout/fragment_todo_detail" >
+        <argument
+            android:name="userId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="a" />
+        <argument
+            android:name="completed"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.android2023ej.MapsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_mapsInfoFragment"
+            app:destination="@id/mapsInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsInfoFragment"
+        android:name="com.example.android2023ej.MapsInfoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_maps_info" >
+        <argument
+            android:name="win"
+            app:argType="string"
+            android:defaultValue="a" />
+        <argument
+            android:name="tem"
+            app:argType="string"
+            android:defaultValue="a" />
+        <argument
+            android:name="hum"
+            app:argType="string"
+            android:defaultValue="a" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackReadFragment"
+        android:name="com.example.android2023ej.FeedbackReadFragment"
+        android:label=""
+        tools:layout="@layout/fragment_feedback_read" >
+        <action
+            android:id="@+id/action_feedbackReadFragment_to_feedbackSendFragment"
+            app:destination="@id/feedbackSendFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackSendFragment"
+        android:name="com.example.android2023ej.FeedbackSendFragment"
+        android:label=""
+        tools:layout="@layout/fragment_feedback_send" >
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherStationFragment"
+        android:name="com.example.android2023ej.WeatherStationFragment"
+        android:label=""
+        tools:layout="@layout/fragment_weather_station" />
+    <fragment
+        android:id="@+id/cloudMqttFragment"
+        android:name="com.example.android2023ej.CloudMqttFragment"
+        android:label=""
+        tools:layout="@layout/fragment_cloud_mqtt" />
+    <activity
+        android:id="@+id/myCustomAppIntro"
+        android:name="com.example.android2023ej.MyCustomAppIntro"
+        android:label=""
+ />
+    <fragment
+        android:id="@+id/customViewFragment"
+        android:name="com.example.android2023ej.CustomViewFragment"
+        android:label=""
+        tools:layout="@layout/fragment_custom_view" />
+</navigation>

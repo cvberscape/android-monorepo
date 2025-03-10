@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsInfoFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center"
+        android:text="Location Weather"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        android:shadowColor="#03DAC5"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:textStyle="italic|bold" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:paddingTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:text="Temperature" />
+
+    <TextView
+        android:id="@+id/textViewtem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:text="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/rndbutton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:paddingTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:text="Humidity" />
+
+    <TextView
+        android:id="@+id/textViewhum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:text="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/rndbutton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:paddingTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:text="Wind speed" />
+
+    <TextView
+        android:id="@+id/textViewwin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:text="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/rndbutton" />
+</LinearLayout>

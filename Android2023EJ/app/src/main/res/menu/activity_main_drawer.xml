@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@color/black">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/jsonFragment"
+            android:title="JSON, GSON, Volley &amp; RecyclerView" />
+        <item
+            android:id="@+id/mapsFragment"
+            android:title="Google Maps API" />
+
+        <item
+            android:id="@+id/feedbackReadFragment"
+            android:title="Strapi" />
+
+        <item
+            android:id="@+id/weatherStationFragment"
+            android:title="MQTT Weatherstation" />
+
+        <item
+            android:id="@+id/cloudMqttFragment"
+            android:title="Cloud MQTT" />
+
+        <item
+            android:id="@+id/thirdPartyComponentFragment"
+            android:title="Third Party Components" />
+
+        <item
+            android:id="@+id/customViewFragment"
+            android:title="Custom Views" />
+    </group>
+</menu>

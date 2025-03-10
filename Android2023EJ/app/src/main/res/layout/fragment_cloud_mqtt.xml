@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".CloudMqttFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center"
+        android:text="HiveMQ"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        android:shadowColor="#03DAC5"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:textStyle="italic|bold" />
+
+
+    <com.example.android2023ej.classes.LatestDataView
+        android:id="@+id/latestDataView_tester"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+   <!-- <TextView
+        android:id="@+id/textView_cloud_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting..."
+        android:textSize="26sp"
+        android:textStyle="bold" />-->
+
+    <EditText
+        android:id="@+id/editText_msg"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_height="48dp"
+        android:hint="Your Message"
+        android:layout_marginTop="50dp"
+        android:inputType="textLongMessage"
+        app:backgroundTint="@color/teal_200"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSendCloudMessage"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:text="SEND" />
+</LinearLayout>

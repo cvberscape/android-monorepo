@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".CustomViewFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center"
+        android:text="Custom Views"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        android:shadowColor="#03DAC5"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:textStyle="italic|bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_change_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:text="ROLL RANDOM TEMPERATURE" />
+
+    <com.example.android2023ej.classes.CustomTemperatureView
+        android:id="@+id/customtemperatureview_tester"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_add_data_test"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rndbutton"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:text="ADD DATA" />
+
+    <com.example.android2023ej.classes.LatestDataView
+        android:id="@+id/latestDataView_tester"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
