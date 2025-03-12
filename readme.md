@@ -17,7 +17,7 @@ A demo application showcasing advanced mobile programming techniques. It feature
 - **UI & Animations:** Material Design, AppIntro, MotionToast, SpinKit  
 - **Maps & APIs:** Google Maps API, REST API integrations
 
-![Demo](../media/demo1.gif)
+![Demo](/media/demo1.gif)
 
 ---
 
@@ -34,7 +34,7 @@ A comprehensive Android application for real-time health monitoring. This app vi
 - **UI & Visualization:** Material Design, AAChartCore, CircularProgressBar  
 - **Maps & APIs:** Google Maps SDK (for location-based features)
 
-![Demo](../media/demo2.gif)
+![Demo](/media/demo2.gif)
 
 ---
 
