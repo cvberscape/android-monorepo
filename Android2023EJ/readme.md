@@ -9,6 +9,8 @@ A comprehensive Android demo application showcasing mobile development technique
 
 This project demonstrates professional Android development skills through multiple feature modules, including real-time data handling, custom UI components, and integration with various cloud services. Built as part of an advanced mobile programming course, it highlights practices in Android development.
 
+![Demo](../media/demo1.gif)
+
 ## Technologies Used
 
 **Core**  
