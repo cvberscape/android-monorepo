@@ -17,6 +17,8 @@ A demo application showcasing advanced mobile programming techniques. It feature
 - **UI & Animations:** Material Design, AppIntro, MotionToast, SpinKit  
 - **Maps & APIs:** Google Maps API, REST API integrations
 
+![Demo](../media/demo1.gif)
+
 ---
 
 ### [2023K: Health Monitoring App](./2023K)
@@ -31,6 +33,8 @@ A comprehensive Android application for real-time health monitoring. This app vi
 - **Backend & Cloud:** Firebase
 - **UI & Visualization:** Material Design, AAChartCore, CircularProgressBar  
 - **Maps & APIs:** Google Maps SDK (for location-based features)
+
+![Demo](../media/demo2.gif)
 
 ---
 
@@ -48,9 +52,3 @@ A simple map application designed to visualize live sensor data. It displays dyn
 - **Networking:** Volley, Gson
 
 ---
-
-![Project Overview](media/project_overview.png)
-*An overview of the diverse functionalities across our mobile applications.*
-
-![Architecture Diagram](media/architecture.png)
-*A high-level architecture diagram illustrating the integration of various system components.*

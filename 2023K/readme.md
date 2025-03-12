@@ -10,6 +10,8 @@ A comprehensive Android application designed to monitor and visualize health met
 
 This project demonstrates professional Android development skills through the implementation of real-time health monitoring, data visualization, and integration with Firebase. The app features a clean, modern UI with interactive charts and progress indicators. This app is a part of a school project in collaboration with Murata, We recieved sensors which track vital data such as heart rate and respiratory rate, this data gets pushed into firebase which was used in this app.
 
+![Demo](../media/demo2.gif)
+
 ## Technologies Used
 
 **Core**  
