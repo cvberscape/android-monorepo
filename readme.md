@@ -1,1 +1,1 @@
-collection of a few anroid projects throughout my time in school
+collection of a few android projects throughout my time in school

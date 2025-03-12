@@ -46,7 +46,6 @@ Fetch and display TODO items from API
   ```kotlin
   Volley // Networking
   Gson // JSON parsing
-  Safe Args // Navigation
   ```
 
 ## 🗺 Maps Integration Fragment
@@ -57,7 +56,7 @@ Interactive maps with weather data
   - Google Maps API integration  
   - Marker-based weather data fetching  
   - Multiple map types (Normal/Hybrid/Terrain)  
-- **Tech Stack**:  
+- **Tech**:  
 
   ```kotlin
   Google Maps SDK // Core mapping
@@ -65,7 +64,7 @@ Interactive maps with weather data
   Volley // API communication
   ```
 
-## 📝 Feedback System
+## 📝 Feedback System fragment
 
 User feedback management  
 
@@ -108,7 +107,7 @@ Real-time messaging demonstration
   - Bi-directional MQTT communication  
   - Message history view  
   - HiveMQ cloud integration  
-- **Tech Stack**:  
+- **Tech**:  
 
   ```kotlin
   MQTT 3.1.1 Protocol // Messaging standard
@@ -116,9 +115,9 @@ Real-time messaging demonstration
   Custom View // Message display
   ```
 
-## 🎨 Custom Views
+## 🎨 Custom Views Fragment
 
-Demonstrate custom UI components  
+Demonstrates custom UI components  
 
 - **Components**:  
   1. `CustomTemperatureView`:  
@@ -132,12 +131,11 @@ Demonstrate custom UI components
   ```kotlin
   Custom View classes // UI components
   ValueAnimator // Smooth transitions
-  Canvas/Paint // Custom drawing
   ```
 
-## 🧩 Third-Party Components
+## 🧩 Third-Party Components Fragment
 
-Showcase library integrations  
+Showcases library integrations  
 
 - **Features**:  
   - AppIntro: Custom onboarding flow  
@@ -148,10 +146,6 @@ Showcase library integrations
 
 1. **Clone Repository**
 
-   ```bash
-   git clone https://github.com/CVBERSCAPE/android-monorepo/advanced-course
-   ```
-
 2. **API Keys Configuration**
    Add to `local.properties`:
 
@@ -161,12 +155,9 @@ Showcase library integrations
    STRAPI_TOKEN=your_strapi_token
    ```
 
-  The sections with MQTT were all made using data provided by my school, this data is unfortunately no longer usable but the functionality of the implementtaion remains.
-3. **Build and Run**
+  The sections with MQTT were all made using data provided by my school, this data is unfortunately no longer usable but the functionality of the implementation remains.
 
-- Open in Android Studio
-- Build -> Make Project
-- Run on emulator or physical device
+3. **Build and Run**
 
 ## Configuration
 
