@@ -1,6 +1,6 @@
-# Monorepo: Mobile Development Projects
+# Android Monorepo: Mobile Development Projects
 
-A collection of some of my Android development projects throughout my time in school, this monorepo does not contain every project i worked on but contains a few android projects where the code contribution was entirely by me alone.
+A collection of some of my Android development projects throughout my time in school, this monorepo does not contain every project i worked on but contains a few android projects where the code contribution was entirely by me alone. You can click on the different projects to open the project level readme:s for more information
 
 ## Projects
 
